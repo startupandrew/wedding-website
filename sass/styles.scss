@@ -181,6 +181,10 @@ Navigation
   opacity: 0.9;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
+
+  a {
+    color: #fff !important;
+  }
 }
 .nav-toggle {
   position: absolute;
@@ -278,24 +282,28 @@ Hero
     margin-bottom: 80px;
   }
   .hero-content {
-    padding-top: 40%;
+    padding-top: 200px;
   }
   .hero-content img {
     width: 55%;
-    margin-bottom: 12%;
   }
 }
 .navigation {
   transition: all 300ms ease-in-out;
+  background-color: rgba(255, 255, 255, 0.4);
   position: fixed;
   width: 100%;
   z-index: 999;
 }
 .fixed {
   position: fixed;
-  background-color: rgba(55, 36, 40, .88);
+  background-color: rgba(40, 40, 40, .85);
   z-index: 999;
   width: 100%;
+
+  a {
+    color: #fff !important;
+  }
 }
 header {
   padding: 50px 0;
