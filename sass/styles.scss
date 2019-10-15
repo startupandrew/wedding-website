@@ -405,15 +405,27 @@ Intro
   width: 80%;
 }
 
-#intro {
+.intro {
   padding-top: 40px;
   img {
     width: 100%;
     height: auto;
   }
 }
-#intro p {
-  text-align: center;
+.intro-convo div {
+  border-radius: 25px;
+  color: #fff;
+  padding: 5px 12px 5px 12px;
+}
+.intro-left {
+  float: left;
+  background: rgb(184, 102, 180);
+  border: 1px solid rgb(153, 39, 39);
+}
+.intro-right {
+  float: right;
+  background: #4d89c9;
+  border: 1px solid rgb(21, 59, 185);
 }
 
 /* ==========================================================================
@@ -477,7 +489,7 @@ Intro
 /* ==========================================================================
 Engagement Pics
 ========================================================================== */
-#eng-pics {
+.eng-pics {
   img {
     width: 100%;
     height: auto;
