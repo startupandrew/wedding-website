@@ -622,3 +622,8 @@ body.modal-open {
 .modal-body {
   padding:25px;
 }
+.b-list {
+  li {
+    list-style: disc inside none;
+  }
+}
